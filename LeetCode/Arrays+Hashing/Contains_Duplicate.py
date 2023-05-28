@@ -21,8 +21,14 @@ Constraints:
 -109 <= nums[i] <= 109
 
 """
-# Define Function
-# def hasDuplicate(nums):
+
+
+class Solution(object):
+    def containsDuplicate(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: bool
+        """
     
 ex = [1,2,3]
 ex2 = set([1,2,3,1])

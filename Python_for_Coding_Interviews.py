@@ -22,7 +22,7 @@ n, m, z = 0.125, "abc", False
 # Increment
 n = n + 1 # good
 n += 1    # good
-n++       # bad
+# n++       # bad
 
 # None is null (absence of value)
 n = 4
