@@ -21,3 +21,31 @@ df2 = pd.DataFrame(np.array([[1,2,3],[4,5,6],[7,8,9]]),
 print(df2)
 
 
+# Selecting parts of a DataFrame
+
+titanic = df
+titanic.Age
+titanic[['Age']]
+# Selects a column
+titanic.iloc[0]
+# Selects a row
+titanic.iloc[[0]]
+# Returns rows 0-2
+titanic.iloc[0:3]
+
+# Returns rows 0-2 showing only columns 3 and 4
+titanic.iloc[0:3, [3,4]]
+
+# Selects all rows for an index column
+titanic.iloc[:, [3]]
+
+# Single entry from single column
+titanic.iloc[0,3]
+
+
+# loc[] Used to select pandas rows and columns by name
+# selecting rows 1-3 from the Name column
+titanic.loc[1:3, ['Name']]
+
+# Add a new column to a DataFrame
+titanic['Age_plus_100'] = titanic['Age'] + 100
