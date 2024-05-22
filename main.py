@@ -1,6 +1,9 @@
 
 def main():
-    print("Hello World")
+    if 2:
+        print("Hello World")
+
+
 
 
 main()

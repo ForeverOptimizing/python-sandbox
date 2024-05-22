@@ -3,18 +3,19 @@
 # https://cs50.harvard.edu/python/2022/psets/2/twttr/
 
 spam = input("Input: ")
+# spam = spam.lower()
 eggs = ""
 for c in spam:
     match c:
-        case "a":
+        case "a" | "A":
             pass
-        case "e":
+        case "e" | "E":
             pass
-        case "i":
+        case "i" | "I":
             pass
-        case "o":
+        case "o" | "O":
             pass
-        case "u":
+        case "u" | "U":
             pass
         case _:
             eggs += c

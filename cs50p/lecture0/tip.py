@@ -1,5 +1,5 @@
-# Lecture 0 Assignment 5
 # Robert Lowder 5/20/2024
+# Lecture 0 Assignment 5 - Tip Calculator
 # https://cs50.harvard.edu/python/2022/psets/0/tip/
 
 def main():

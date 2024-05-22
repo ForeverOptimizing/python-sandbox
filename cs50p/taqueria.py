@@ -1,4 +1,6 @@
-# Assignment https://cs50.harvard.edu/python/2022/psets/3/taqueria/
+# Robert Lowder 5/15/2024 - Revised 5/20/2024
+# Lecture 3 Assignment 2 - Felipe’s Taqueria
+# https://cs50.harvard.edu/python/2022/psets/3/taqueria/
 
 
 
@@ -13,4 +15,5 @@ menu = {
     "Taco": 3.00,
     "Tortilla Salad": 8.00
 }
+
 
