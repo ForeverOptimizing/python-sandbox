@@ -10,3 +10,5 @@ def test_value():
     assert value("yo") == 100
     assert value("Hello") == 0
     assert value("hey") == 20
+    assert value("hi") == 20
+    assert value("howdy") == 20
